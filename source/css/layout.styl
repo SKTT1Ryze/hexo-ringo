@@ -44,8 +44,9 @@
 	width: 1000px !important;
 	max-width: 1000px !important;
 	padding: 40px;
-	background: #fcfcfc;
-	box-shadow: 0 0 24px rgba(0,0,0,0.12);
+	background: rgba(255,255,255,.8);
+  border-radius: .8em;
+	box-shadow: 0 0 30px #fbb3604d;
 }
 .widget-list li ul {
 	margin-left: 0px;
@@ -53,6 +54,20 @@
 }
 #footer {
 	margin-top: 0px;
+}
+.leftbg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -999;
+  opacity: .6;
+}
+.rightbg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  opacity: .6;
 }
 
 @media (max-width: 1200px) {
